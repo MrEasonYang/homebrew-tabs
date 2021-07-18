@@ -5,25 +5,25 @@
 class Flomo < Formula
   desc "A Golang based command line interface of flomo. Visit https://easonyang.com to get more information."
   homepage "https://github.com/MrEasonYang/flomo-cli"
-  version "1.0.0"
+  version "1.0.1"
   license "MIT"
   bottle :unneeded
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/MrEasonYang/flomo-cli/releases/download/v1.0.0/flomo_1.0.0_macOS_x86_64.tar.gz"
-      sha256 "24a8eefcb95b61b2fc90b3919380b3a3e61251b0779428d1bef43359d472a1e8"
+      url "https://github.com/MrEasonYang/flomo-cli/releases/download/v1.0.1/flomo_1.0.1_macOS_x86_64.tar.gz"
+      sha256 "da1035c270554fbac2f799fee3cd88770fd9af4ac18653b501e22d65f7f693b1"
     end
     if Hardware::CPU.arm?
-      url "https://github.com/MrEasonYang/flomo-cli/releases/download/v1.0.0/flomo_1.0.0_macOS_arm64.tar.gz"
-      sha256 "2a25dc173b40f149c00a6f70fd9c9b949b67ca14f20c6acbde039a4cf86a440b"
+      url "https://github.com/MrEasonYang/flomo-cli/releases/download/v1.0.1/flomo_1.0.1_macOS_arm64.tar.gz"
+      sha256 "e433ddfbc8f200bb3909e68db12687e8d808ee200cbc32d1cca060774ebc6175"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/MrEasonYang/flomo-cli/releases/download/v1.0.0/flomo_1.0.0_Linux_x86_64.tar.gz"
-      sha256 "0f0f09352672b9d764bf7c407f96bf2fbf442083fad4394429e0e9ac4d3f1e6e"
+      url "https://github.com/MrEasonYang/flomo-cli/releases/download/v1.0.1/flomo_1.0.1_Linux_x86_64.tar.gz"
+      sha256 "9f8899f6fc7a59e734727ba205c06d2ac2d4628a9a4d39ceed30914624a7ed37"
     end
   end
 
